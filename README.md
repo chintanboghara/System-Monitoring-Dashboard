@@ -1,11 +1,5 @@
 # System Monitoring Dashboard
 
-[![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/flask-2.x-orange.svg)](https://flask.palletsprojects.com/)
-[![Redis](https://img.shields.io/badge/redis-stable-red.svg)](https://redis.io/)
-[![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
-[![Build and Push Docker Image](https://github.com/chintanboghara/System-Monitoring-Dashboard/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/chintanboghara/System-Monitoring-Dashboard/actions/workflows/docker-publish.yml)
-
 **System Monitoring Dashboard** is a lightweight Flask web application designed to display real-time system metrics, including CPU, memory, and disk usage. It leverages Redis to store the five most recent metric readings, providing a historical snapshot. The dashboard automatically refreshes every 5 seconds.
 
 The application is built for easy deployment, either locally for development or containerized using Docker and Docker Compose, integrating seamlessly with advanced Docker productivity tools.
