@@ -43,8 +43,8 @@ Ensure you have the necessary tools installed for your chosen setup method:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/chintanboghara/system-monitoring-dashboard.git
-    cd system-monitoring-dashboard
+    git clone https://github.com/chintanboghara/System-Monitoring-Dashboard.git
+    cd System-Monitoring-Dashboard
     ```
 
 2.  **Set up a virtual environment (Recommended):**
